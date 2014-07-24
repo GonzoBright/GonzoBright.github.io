@@ -19,7 +19,7 @@ img
 
 h1, h2, h3, h4, h5, h6 
 { font: normal 175% 'arial', arial, sans-serif;
-  color: #43423F;
+  color: #000;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
@@ -39,7 +39,7 @@ h5, h6
   color: #000;}
 
 h6
-{ color: #362C20;}
+{ color: #000;}
 
 a, a:hover
 { outline: none;
@@ -110,7 +110,7 @@ ol li
 
 #logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
 { padding: 22px 0 0 0;
-  color: #FFF;
+  color: #7b235f;
   letter-spacing: 0.1em;
   text-decoration: none;}
 
@@ -182,11 +182,23 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 .sidebar li a.selected
 { color: #444;
   text-decoration: none;} 
+  
+.small-gap {
+  margin-bottom: 10px;
+}
+  
+.gap {
+  margin-bottom: 50px;
+}
+
+.big-gap {
+  margin-bottom: 100px;
+}
 
 #content
 { text-align: left;
   float: right;
-  width: 595px;
+  width: 854px;
   padding: 0;}
 
 #content ul
@@ -198,6 +210,22 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   margin: 0 0 6px 0; 
   padding: 0 0 4px 25px;
   line-height: 1.5em;}
+  
+#right-side
+{
+  text-align: center;
+  float: right;
+  width: 427px;
+  padding: 0;
+}
+
+#left-side
+{
+  text-align: center;
+  float: left;
+  width: 427px;
+  padding: 0;
+}
 
 #footer
 { width: 900px;
