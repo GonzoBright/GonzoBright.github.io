@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
 html
 { height: 100%;}
 
@@ -323,10 +325,25 @@ table tr td
   color: #47433F;
   border-top: 1px solid #FFF;}
   
+#news-post
+{
+	background-color: #F0EFE2;
+	margin: 0 0 20px 0;
+	padding: 0 0 0 10px;
+	border: 1px solid #D9D5CF;
+	border-radius: 5px;
+}
+  
 #news-post h2
 {
 	font: normal 150% 'arial', arial, sans-serif;
 	border-bottom: 0;
 	text-transform: none;
 	margin: 0 0 5px 0;
+}
+
+#news-post p
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 }
