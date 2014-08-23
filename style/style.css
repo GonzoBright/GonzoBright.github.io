@@ -230,13 +230,11 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 }
 
 #footer
-{ width: 900px;
-  font: normal 100% 'lucida sans unicode', arial, sans-serif;
-  height: 33px;
-  padding: 24px 0 5px 0;
+{ font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  height: 240p;
+  padding: 50px 0 50px 0;
   text-align: center; 
-  background: transparent url(transparent_light.png) repeat;
-  color: #000;
+  background: #1D1D1D url(header.jpg) repeat;
   text-transform: uppercase;
   letter-spacing: 0.1em;}
 
